@@ -2,11 +2,11 @@
 
 通过文本文件生成简历tex的generator。最终生成pdf还是要靠Latex+Moderncv，环境请自行配置。 
 
-- windows下：
-- Linux下：
-- Mac下：
+- windows下：<http://www.ctex.org/HomePage>
+- Linux下：<https://www.tug.org/texlive/>
+- Mac下：<https://tug.org/mactex/>
 
-需要的包都通过sudo tlmgr install package来安装。
+需要的包都通过sudo tlmgr install package来安装。字体主要使用了Times New Roman（西文）和 Kaiti SC（中文）。可根据喜好换。
 
 # 模板配置
 
@@ -40,19 +40,16 @@ gen.py 文件格式如下：
 
 	./gen.py <template-file> <cvfile> <output-file>
 
-
 # 效果
 
 ![中文cv](cv-zh.png "中文cv")
 
-![English-cv](cv-en.png "English-cv")
-
 ![中文pdf](pdf-zh.png "中文pdf")
+
+![English-cv](cv-en.png "English-cv")
 
 ![English Pdf](pdf-en.png "English Pdf")
 
 # 参考文献:
 
 >\[1] http moderncv 的笔记（支持中文）, <http://www.xiangsun.org/tex/notes-on-moderncv>
-
-[1] http://www.xiangsun.org/tex/notes-on-moderncv "moderncv 的笔记（支持中文）"
