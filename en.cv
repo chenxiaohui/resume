@@ -1,40 +1,44 @@
-firstname=XXX
-lastname=XXXX
-title=Male, XX
-address=XXXXX
-mobile=+86~111~1111~1111
-email=xxxx@xxx.com
+firstname=Xiaohui
+lastname=Chen
+title=Male, 27
+address=SOHU.com Media Plaza, Block 3, No.2 Kexueyuan South Road, Haidian District, Beijing, China
+mobile=+86~138~1179~8428
+email=sdqxcxh@gmail.com
 
 homepage=www.cxh.me
 github=chenxiaohui
 linkedin=chenxiaohui
 
 [education]
-20xx.x--20xx.x | XXCollege
-20xx.x--20xx.x | XXUnviersity
+2010.9--2013.7 清华大学软件学院，软件工程硕士
+2006.9--2010.6 北京航空航大学计算机学院，计算机科学与技术本科
 
 [work]
-20xx.xx--Now | xxxxCompany
-20xx.x--20xx.x | xxxCompany
+2014.11--今 搜狐大数据中心推荐系统和精准广告团队，高级研发工程师，L3.1
+2013.7--2014.10 支付宝北京基础数据部OceanBase团队，研发工程师，P5
 
 [awards]
-20xx|xxxx
-20xx|xxxx
+2010 北京航空航天大学优秀毕业生
+2010 北京航空航天大学计算机学院科技实践奖学金
+2009 北航第十九届“冯如杯”学生学术科技作品竞赛二等
+2008 北京市奥运会残奥会志愿者先进个人
 
 [language]
-Fluent in read and write (English). Native (Chinese).
+具备良好的英语听说读写能力,熟练阅读英文文献。大学英语四级(548)、六级(549)均已通过。
 
 [personal-stat]
-I xxxxx.
-I xxxxx.
+专业兴趣浓厚,热衷于钻研各种技术,参与了很多项目,实践能力和学习能力均比较强;极客,崇尚高效率快节奏的生活方式,富于创造力,喜欢对现有方法进行改进以提高效率。
+有较强的团队意识和一定的组织领导能力,独立领导完成过中小型项目(创业型)。扎实肯干,易于相处。
 
 [skills]
-C++ ....
-Java ...
-Python ...
+C++多年经验，熟悉分布式算法，设计过分布式协议，对数据库理论、NOSQL有一定了解和经验。
+对开源分布式存储系统有浓厚兴趣，看过redis、memcache源码
+熟悉推荐系统的基本算法和架构，实现过推荐系统上下游服务
+熟练Python语言,做过MongoDB、Memcached相关的项目,使用Django、Web.py等框架开发过web应用。用Python写过领域语言编译器的生成器(代码开源在github上)。
+熟悉JQuery/HTML/CSS和PHP,独立做过网站前端后端设计,BootStrap熟练运用,熟悉WebService、数据库等技术,对网站开发和性能优化有一定经验。
+熟悉Ubuntu,RedHat等版本下的Linux运维，熟悉LinuxShell编程。
+会使用VSS、SVN、GIT等进行项目开发和管理，熟悉VisualStudio,Eclipse,VIM等开发环境。开发过vim、sublime插件。
 
 [projects]
-2015.6|Resume Generator.
 
 [others]
-2015|nothing.
