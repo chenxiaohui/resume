@@ -40,4 +40,19 @@ gen.py 文件格式如下：
 
 	./gen.py <template-file> <cvfile> <output-file>
 
+
+# 效果
+
+![中文cv](cv-zh.png "中文cv")
+
+![English-cv](cv-en.png "English-cv")
+
+![中文pdf](pdf-zh.png "中文pdf")
+
+![English Pdf](pdf-en.png "English Pdf")
+
+# 参考文献:
+
+>\[1] http moderncv 的笔记（支持中文）, <http://www.xiangsun.org/tex/notes-on-moderncv>
+
 [1] http://www.xiangsun.org/tex/notes-on-moderncv "moderncv 的笔记（支持中文）"
