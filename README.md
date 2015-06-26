@@ -35,7 +35,9 @@ xx.cv包含了简历内容，格式上参考了ini文件格式，但是略有不
 写好对应的cv和模板之后，make就行。open命令可能在mac之外的系统不能使用，建议注掉。
 
 make distclean清空所有文件包括pdf
+
 make again 是为了生成页码，xelatex跑第一遍的时候页码是乱码。
+
 gen.py 文件格式如下：
 
 	./gen.py <template-file> <cvfile> <output-file>
