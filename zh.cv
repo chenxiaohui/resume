@@ -1,0 +1,37 @@
+name=XXX
+title=男, 27
+address=XXXXX
+mobile=+86~1xx~1xxx~xxxx
+email=xxx@xxx.com
+
+homepage=www.cxh.me
+github=chenxiaohui
+linkedin=chenxiaohui
+
+[education]
+20xx.x--20xx.x | XX大学硕士
+20xx.x--20xx.x | XX大学本科
+
+[work]
+20xx.xx--今| XXX公司，XX研发工程师
+20xx.x--20xx.x | xxx公司, 研发工程师
+
+[awards]
+20xx | XXXX
+
+[language]
+具备良好的英语听说读写能力,熟练阅读英文文献.
+
+[personal-stat]
+我xXXX
+
+[skills]
+C++...
+Java...
+Python...
+
+[projects]
+2015.6 | 简历自动生成，基于Latex + moderncv
+
+[others]
+20xx | 并没有什么卵用

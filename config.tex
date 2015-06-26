@@ -1,0 +1,58 @@
+\documentclass[10pt,a4paper,roman]{moderncv}
+
+% moderncv themes
+\moderncvstyle{classic}
+\moderncvcolor{black}
+%\renewcommand{\familydefault}{\sfdefault}
+%\nopagenumbers{}
+
+% character encoding
+%\usepackage[utf8]{inputenc}
+%\usepackage{CJKutf8}
+
+% adjust the page margins
+\usepackage[scale=0.85]{geometry}
+\setlength{\hintscolumnwidth}{0.13\textwidth}
+\setlength{\makecvtitlenamewidth}{8cm}
+
+\usepackage{fontspec}
+\usepackage{xunicode}
+\usepackage{xeCJK}
+\setmainfont{Times New Roman}
+\setsansfont{Times New Roman}
+\setmonofont{Courier New}
+%\setCJKmainfont{Adobe Kaiti Std}
+\setCJKmainfont{Kaiti SC}
+\setCJKsansfont{Kaiti SC}
+\setCJKmonofont{SimHei}
+
+\usepackage{lastpage}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+
+\usepackage[british]{datetime2}
+%\newdateformat{UKvardate}{%
+%\THEDAY\ \monthname[\THEMONTH] \THEYEAR}
+%\UKvardate
+
+\usepackage{manfnt}
+
+\newcommand{\hello}{{\tiny\textdbend}}
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+
+\AfterPreamble{\hypersetup{
+    pdfstartview={XYZ null null 1.30},
+    baseurl={http://}
+}}

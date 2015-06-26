@@ -1,0 +1,40 @@
+firstname=XXX
+lastname=XXXX
+title=Male, XX
+address=XXXXX
+mobile=+86~111~1111~1111
+email=xxxx@xxx.com
+
+homepage=www.cxh.me
+github=chenxiaohui
+linkedin=chenxiaohui
+
+[education]
+20xx.x--20xx.x | XXCollege
+20xx.x--20xx.x | XXUnviersity
+
+[work]
+20xx.xx--Now | xxxxCompany
+20xx.x--20xx.x | xxxCompany
+
+[awards]
+20xx|xxxx
+20xx|xxxx
+
+[language]
+Fluent in read and write (English). Native (Chinese).
+
+[personal-stat]
+I xxxxx.
+I xxxxx.
+
+[skills]
+C++ ....
+Java ...
+Python ...
+
+[projects]
+2015.6|Resume Generator.
+
+[others]
+2015|nothing.
