@@ -17,19 +17,24 @@ def parse_cv(filename):
                 line = fp.readline()
                 continue
 
-            if line.startswith('['):
+            if line.startswith('['): #new section
                 if cursec:
-                    ret[cursec] = curdict
+                    ret[cursec] = curdict #commit last dict
                 cursec = line.strip('[]')
                 curdict = []
-            elif not cursec:
+            elif not cursec: #default section
                 pos = line.find('=')
                 key = line[:pos]
                 value = line[pos + 1:]
                 ret[key] = value
-            else:
+            else: #in a section
                 values = line.split(grammar['separator'])
-                curdict.append(values)
+                if len(values) > 1:
+                    tmp = [values[0]]
+                    tmp.extend(values[1].split('。', 1))
+                    curdict.append(tmp)
+                else:
+                    curdict.append(values)
 
             line = fp.readline()
 
@@ -40,4 +45,4 @@ def parse_cv(filename):
 
 if __name__ == '__main__':
     import pprint
-    pprint.pprint (parse_cv('en.cv'))
+    pprint.pprint (parse_cv('test.cv'))

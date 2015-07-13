@@ -1,0 +1,25 @@
+firstname=Xiaohui
+lastname=Chen
+title=Male, 27
+address=SOHU.com Media Plaza, Block 3, No.2 Kexueyuan South Road, Haidian District, Beijing, China
+mobile=+86~138~1179~8428
+email=sdqxcxh@gmail.com
+
+[education]
+2010.9--2013.7 | 清华大学软件学院，软件工程硕士
+2006.9--2010.6 | 北京航空航大学计算机学院，计算机科学与技术本科
+
+[work]
+2014.11--今 | 搜狐大数据中心推荐系统和精准广告团队，高级研发工程师，L3.1
+2013.7--2014.10 | 支付宝北京基础数据部OceanBase团队，研发工程师，P5
+
+[awards]
+2010 | 北京航空航天大学优秀毕业生
+2008 | 北京市奥运会残奥会志愿者先进个人
+
+[skills]
+C++多年经验，熟悉分布式算法，设计过分布式协议，对数据库理论、NOSQL有一定了解和经验。
+
+[projects]
+2013-2320 | 这是表头。这是内容
+[others]
