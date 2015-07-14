@@ -2,7 +2,7 @@
 #coding=utf-8
 #Filename:parser.py
 from config import *
-
+import re
 def parse_cv(filename):
     """"""
     cursec = None
@@ -31,7 +31,7 @@ def parse_cv(filename):
                 values = line.split(grammar['separator'])
                 if len(values) > 1:
                     tmp = [values[0]]
-                    tmp.extend(values[1].split('。', 1))
+                    tmp.extend(re.split('。|\|', values[1], 1))
                     curdict.append(tmp)
                 else:
                     curdict.append(values)
