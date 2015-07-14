@@ -10,7 +10,7 @@ grammar = {
 }
 regex = {
     'default':'%(\S+?)%',
-    'subvariable':'\{(\w+?)\}'
+    'subvariable':'\{(\d+?)\}'
 }
 
 pattern = re.compile(regex['default'])
