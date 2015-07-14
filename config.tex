@@ -2,7 +2,7 @@
 
 % moderncv themes
 \moderncvstyle{classic}
-\moderncvcolor{black}
+\moderncvcolor{blue}
 %\renewcommand{\familydefault}{\sfdefault}
 %\nopagenumbers{}
 % character encoding
@@ -10,8 +10,8 @@
 %\usepackage{CJKutf8}
 
 % adjust the page margins
-\usepackage[scale=0.85]{geometry}
-\setlength{\hintscolumnwidth}{0.13\textwidth}
+\usepackage[scale=0.86]{geometry}
+\setlength{\hintscolumnwidth}{0.14\textwidth}
 \setlength{\makecvtitlenamewidth}{8cm}
 
 \usepackage{fontspec}
@@ -51,8 +51,11 @@
 %----------------------------------------------------------------------------------
 %            content
 %----------------------------------------------------------------------------------
-
 \AfterPreamble{\hypersetup{
-    pdfstartview={XYZ null null 1.30},
-    baseurl={http://}
+    %pdfstartview={XYZ null null 1.30},
+    baseurl={http://},
+    colorlinks=true,
+    urlcolor=blue,
+    %urlbordercolor=red,% url borders will be red
+    %pdfborderstyle={/S/U/W 1}% border style will be underline of width 1pt
 }}
