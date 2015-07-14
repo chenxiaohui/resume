@@ -61,29 +61,127 @@
 
 
 \section{项目经验-工作}
-\cvitem{2014.6-今 }{\textbf{ 搜狐精准广告index系统重构} \newline 维护并重构精准广告的索引系统，实现上类似于Lucence，提供对满足某个定向条件的广告候选集的搜索，并持久化索引到磁盘。C++实现，分布式环境。}
-\cvitem{2014.4-2015.5 }{\textbf{ 基于Zookeeper的配置管理客户端} \newline 通过Zookeeper管理配置项，支持在线修改和事件通知，封装了Zookeeper的Java的客户端，目前已用在搜狐大数据中心多个业务。详见\href{http://cxh.me/2015/06/16/sohu-zk-client-document/}{[link]}。Java实现。}
-\cvitem{2014.3-2014.4 }{\textbf{ 搜狐微门户视频E\&E策略index-server开发} \newline 按照策略对刚进入系统的短视频进行试探性曝光(Explore)，曝光到一定次数并获得相应点击的视频进入投放列表(Exploit)，参照Yahoo UCB相关论文。目前已经上线并在上海地区运行。Java实现。}
-\cvitem{2014.3-2015.4 }{\textbf{ 搜狗输入法个性化推送平台} \newline 通过聚类把用户分为多个类别，对不同类别用户编辑相关类别的热门新闻并推送。平台主要提供候选编辑，并对接搜狗的推送接口。人工介入以满足新闻质量要求。基于Django。}
-\cvitem{2015.1-2015.3 }{\textbf{ 推荐系统各业务线监控和人工标注系统} \newline 通过Thrift接口从各个业务线取数据，Join数据库对应新闻数据并展示以监控算法效果。提供为新闻手动打标签的界面为算法人工纠错。基于Django。}
-\cvitem{2014.11-2015.1 }{\textbf{ 手机搜狐个性频道实时UA(User Attributes)系统} \newline 根据用户最近一段时间的浏览记录给用户打标签。参见\href{http://182.92.76.83/ua/}{[link]}。Java实现，通过zookeeper管理server列表并实现HA。}
-\cvitem{2014.2-2014.11 }{\textbf{ 阿里巴巴分布式数据库Oceanbase1.0版本设计实现} \newline 参与1.0云版本事务模块的设计、分布式事务设计（两阶段提交）实现和日志同步设计（基于Raft）。设计选主算法的测试框架。熟悉整个系统的实现原理。C++实现。}
-\cvitem{2013.7-2014.2 }{\textbf{ 分布式数据库Oceanbase0.5版本重构} \newline Schema管理（异步更新Schema）、RootServer重构、内部表重构等。C++实现。}
+\cvitem{2014.2-2014.11 }{
+    \textbf{ 阿里巴巴分布式数据库Oceanbase1.0版本设计实现} \newline
+    \fixitemize{
+    \begin{itemize}
+        \item[] 参与1.0云版本事务模块的设计、分布式事务设计（两阶段提交）实现和日志同步设计（基于Raft）。设计选主算法的测试框架。熟悉整个系统的实现原理。C++实现。
+    \end{itemize}
+    }
+}
+\cvitem{2013.7-2014.2 }{
+    \textbf{ 分布式数据库Oceanbase0.5版本重构} \newline
+    \fixitemize{
+    \begin{itemize}
+        \item[] Schema管理（异步更新Schema）、RootServer重构、内部表重构等。C++实现。
+    \end{itemize}
+    }
+}
+\cvitem{2014.6-今 }{
+    \textbf{ 搜狐精准广告index系统重构} \newline
+    \fixitemize{
+    \begin{itemize}
+        \item[] 维护并重构精准广告的索引系统，实现上类似于Lucence，提供对满足某个定向条件的广告候选集的搜索，并持久化索引到磁盘。C++实现，分布式环境。
+    \end{itemize}
+    }
+}
+\cvitem{2014.4-2015.5 }{
+    \textbf{ 基于Zookeeper的配置管理客户端} \newline
+    \fixitemize{
+    \begin{itemize}
+        \item[] 通过Zookeeper管理配置项，支持在线修改和事件通知，封装了Zookeeper的Java的客户端，目前已用在搜狐大数据中心多个业务。详见\lnk{http://cxh.me/2015/06/16/sohu-zk-client-document/}。Java实现。
+    \end{itemize}
+    }
+}
+\cvitem{2014.3-2014.4 }{
+    \textbf{ 搜狐微门户视频E\&E策略index-server开发} \newline
+    \fixitemize{
+    \begin{itemize}
+        \item[] 按照策略对刚进入系统的短视频进行试探性曝光(Explore)，曝光到一定次数并获得相应点击的视频进入投放列表(Exploit)，参照Yahoo UCB相关论文。目前已经上线并在上海地区运行。Java实现。
+    \end{itemize}
+    }
+}
+\cvitem{2014.3-2015.4 }{
+    \textbf{ 搜狗输入法个性化推送平台} \newline
+    \fixitemize{
+    \begin{itemize}
+        \item[] 通过聚类把用户分为多个类别，对不同类别用户编辑相关类别的热门新闻并推送。平台主要提供候选编辑，并对接搜狗的推送接口。人工介入以满足新闻质量要求。基于Django。
+    \end{itemize}
+    }
+}
+\cvitem{2015.1-2015.3 }{
+    \textbf{ 推荐系统各业务线监控和人工标注系统} \newline
+    \fixitemize{
+    \begin{itemize}
+        \item[] 通过Thrift接口从各个业务线取数据，Join数据库对应新闻数据并展示以监控算法效果。提供为新闻手动打标签的界面为算法人工纠错。基于Django。
+    \end{itemize}
+    }
+}
+\cvitem{2014.11-2015.1 }{
+    \textbf{ 手机搜狐个性频道实时UA(User Attributes)系统} \newline
+    \fixitemize{
+    \begin{itemize}
+        \item[] 根据用户最近一段时间的浏览记录给用户打标签。参见\lnk{http://182.92.76.83/ua/}。Java实现，通过zookeeper管理server列表并实现HA。
+    \end{itemize}
+    }
+}
 
 
 \section{项目经验-学校/创业}
-\cvitem{2013.3-2013.6 }{\textbf{ 建筑领域语义（IFC）编译器和数据中心} \newline \hspace{2em} 研究生毕设。实现了IFC语法的编译器，动态解析实体Schema并映射到Python语言，解析中间结果并提供存储、检索。基于Python + MongoDB。参见\href{https://github.com/chenxiaohui/BimCenter}{[link]}。}
-\cvitem{2011.3-2011.6 }{\textbf{ 适合我旅游网\href{http://home.donews.com/donews/article/1/153561.html}{[link]}} \newline \hspace{2em} 创业项目。负责了整个网站大部分的开发、运维工作，网站上线后运行良好，后因运营问题关停。项目包含了团购、支付和酒店机票爬取、搜索(简单的垂直搜索）等。基于LAMP。代码见\href{https://github.com/chenxiaohui/groupbuy}{[link]}。}
-\cvitem{2012.11-2013.3}{\textbf{ 矿山车联网监控系统} \newline \hspace{2em} 创业项目。负责软件系统。包括服务端与硬件的接口和数据存储（Python+TCP+MySQL），前台的展示和统计(LAMP)。}
-\cvitem{2009.11-2010.5 }{\textbf{ 寻宝物语SNS游戏(TreasureStory)\href{https://apps.facebook.com/treasurestory_tc/}{[link]}} \newline \hspace{2em} 创业项目。负责部分后台、后台管理系统开发以及数据平衡，2010年5月游戏在facebook上线之后，在Zynga该类游戏中进入Rank30，后登陆多种SNS平台。后台基于LAMP。}
-\cvitem{2010.11-2011.3 }{\textbf{ 金牌国旅企业管理系统} \newline \hspace{2em} 外包项目。为金牌国际旅行社有限公司定制企业业务流程系统以及人事、财务管理软件。领导了整个项目开发并独立设计了系统架构，使用.Net平台，C/S架构，数据库使用SQLServer，基于异步非阻塞Socket，目前仍在使用中。}
-\cvitem{2010.4-2010.6 }{\textbf{ Admire系统MBus组件的改进和优化} \newline \hspace{2em} 本科毕设项目。主要对Admire系统（视频会议）MBus消息总线(跨进程、主机消息中间件)进行改进和优化，使之支持IPv6、变长消息格式，以及基于CryptoAPI实现SSL安全协议。VC实现。}
+\cvitem{2013.3-2013.6 }{
+    \textbf{ 建筑领域语义（IFC）编译器和数据中心} \newline
+    \fixitemize{
+    \begin{itemize}
+        \item[] 研究生毕设。实现了IFC语法的编译器，动态解析实体Schema并映射到Python语言，解析中间结果并提供存储、检索。基于Python + MongoDB。参见\lnk{https://github.com/chenxiaohui/BimCenter}。
+    \end{itemize}
+    }
+}
+\cvitem{2011.3-2011.6 }{
+    \textbf{ 适合我旅游网\lnk{http://home.donews.com/donews/article/1/153561.html}} \newline
+    \fixitemize{
+    \begin{itemize}
+        \item[] 创业项目。负责了整个网站大部分的开发、运维工作，网站上线后运行良好，后因运营问题关停。项目包含了团购、支付和酒店机票爬取、搜索(简单的垂直搜索）等。基于LAMP。代码见\lnk{https://github.com/chenxiaohui/groupbuy}。
+    \end{itemize}
+    }
+}
+\cvitem{2012.11-2013.3}{
+    \textbf{ 矿山车联网监控系统} \newline
+    \fixitemize{
+    \begin{itemize}
+        \item[] 创业项目。负责软件系统。包括服务端与硬件的接口和数据存储（Python+TCP+MySQL），前台的展示和统计(LAMP)。
+    \end{itemize}
+    }
+}
+\cvitem{2009.11-2010.5 }{
+    \textbf{ 寻宝物语SNS游戏(TreasureStory)\lnk{https://apps.facebook.com/treasurestory_tc/}} \newline
+    \fixitemize{
+    \begin{itemize}
+        \item[] 创业项目。负责部分后台、后台管理系统开发以及数据平衡，2010年5月游戏在facebook上线之后，在Zynga该类游戏中进入Rank30，后登陆多种SNS平台。后台基于LAMP。
+    \end{itemize}
+    }
+}
+\cvitem{2010.11-2011.3 }{
+    \textbf{ 金牌国旅企业管理系统} \newline
+    \fixitemize{
+    \begin{itemize}
+        \item[] 外包项目。为金牌国际旅行社有限公司定制企业业务流程系统以及人事、财务管理软件。领导了整个项目开发并独立设计了系统架构，使用.Net平台，C/S架构，数据库使用SQLServer，基于异步非阻塞Socket，目前仍在使用中。
+    \end{itemize}
+    }
+}
+\cvitem{2010.4-2010.6 }{
+    \textbf{ Admire系统MBus组件的改进和优化} \newline
+    \fixitemize{
+    \begin{itemize}
+        \item[] 本科毕设项目。主要对Admire系统（视频会议）MBus消息总线(跨进程、主机消息中间件)进行改进和优化，使之支持IPv6、变长消息格式，以及基于CryptoAPI实现SSL安全协议。VC实现。
+    \end{itemize}
+    }
+}
 
 
 \section{项目经验-其他}
-\cvitem{vim、sublime plugin }{ vim-config(vim 配置，\href{https://github.com/chenxiaohui/vim_config}{[link]})、vim-cscope(关联cscope，\href{https://github.com/chenxiaohui/vim_cscope}{[link]})、ifdef-generator(生成ifdef，\href{https://github.com/chenxiaohui/ifdef_generator}{[link]})、postreview.vim(生成post-review脚本，\href{https://github.com/chenxiaohui/post-review.vim}{[link]})、file-list(文件管理器，\href{https://github.com/chenxiaohui/file-list}{[link]})、AllinOneCompile(编译选项管理，\href{https://github.com/chenxiaohui/AllinOneCompile}{[link]})、BufItv2(缓冲区管理，\href{https://github.com/chenxiaohui/Buf_Itv2}{[link]})、generate-ref(sublime插件，生成参考文献\href{https://github.com/chenxiaohui/generate_ref}{[link]})等}
-\cvitem{python脚本 }{ 简历生成器（通过文本文件生成简历tex的generator)\href{https://github.com/chenxiaohui/resume}{[link]})、category(分类电子书，\href{https://github.com/chenxiaohui/category}{[link]})、music-category（分类音乐，\href{https://github.com/chenxiaohui/MusicCategory}{[link]}），proxy-pool(爬取免费代理并验证，\href{https://github.com/chenxiaohui/proxy_pool}{[link]})，scrawl(url规则爬虫，自动切换代理防止封ip)等}
-\cvitem{其他项目}{ C0文法编译器(课程设计，C，\href{https://github.com/chenxiaohui/C0Compiler}{[link]}）、正则表达式匹配器（课程设计，C++，\href{http://cxh.me/2011/03/22/implement-of-regular-expression-matcher/}{[link]}）、中建地产企业产品线研发数据平台（实验室项目，LAMP)、某卫星地面测试系统（外包项目，MFC)，Admire系统网站的WebService封装（实验室项目，ASP.NET）、视频会议高清采集（实验室项目，VC/DirectShow）}
+\cvitem{vim、sublime plugin }{ vim-config(vim 配置，\lnk{https://github.com/chenxiaohui/vim_config})、vim-cscope(关联cscope，\lnk{https://github.com/chenxiaohui/vim_cscope})、ifdef-generator(生成ifdef，\lnk{https://github.com/chenxiaohui/ifdef_generator})、postreview.vim(生成post-review脚本，\lnk{https://github.com/chenxiaohui/post-review.vim})、file-list(文件管理器，\lnk{https://github.com/chenxiaohui/file-list})、AllinOneCompile(编译选项管理，\lnk{https://github.com/chenxiaohui/AllinOneCompile})、BufItv2(缓冲区管理，\lnk{https://github.com/chenxiaohui/Buf_Itv2})、generate-ref(sublime插件，生成参考文献\lnk{https://github.com/chenxiaohui/generate_ref})等}
+\cvitem{python脚本 }{ 简历生成器（通过文本文件生成简历tex的generator)\lnk{https://github.com/chenxiaohui/resume})、category(分类电子书，\lnk{https://github.com/chenxiaohui/category})、music-category（分类音乐，\lnk{https://github.com/chenxiaohui/MusicCategory}），proxy-pool(爬取免费代理并验证，\lnk{https://github.com/chenxiaohui/proxy_pool})，scrawl(url规则爬虫，自动切换代理防止封ip)等}
+\cvitem{其他项目}{ C0文法编译器(课程设计，C，\lnk{https://github.com/chenxiaohui/C0Compiler}）、正则表达式匹配器（课程设计，C++，\lnk{http://cxh.me/2011/03/22/implement-of-regular-expression-matcher/}）、中建地产企业产品线研发数据平台（实验室项目，LAMP)、某卫星地面测试系统（外包项目，MFC)，Admire系统网站的WebService封装（实验室项目，ASP.NET）、视频会议高清采集（实验室项目，VC/DirectShow）}
 
 
 

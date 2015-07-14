@@ -39,7 +39,9 @@
 
 \usepackage{manfnt}
 
-\newcommand{\hello}{{\tiny\textdbend}}
+%\newcommand{\hello}{{\tiny\textdbend}}
+\newcommand{\hello}{\faCaretRight}
+\newcommand{\lnk}[1]{\href{#1}{~\small\faExternalLink}}
 % to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
 %\makeatletter
 %\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
@@ -58,4 +60,6 @@
     urlcolor=blue,
     %urlbordercolor=red,% url borders will be red
     %pdfborderstyle={/S/U/W 1}% border style will be underline of width 1pt
-}}
+}
+}
+\newcommand*{\fixitemize}[1]{\begin{minipage}[t]{\maincolumnwidth}#1\end{minipage}}
