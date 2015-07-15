@@ -31,7 +31,7 @@ linkedin=chenxiaohui
 
 [skills]
 多年C/C++经验，熟悉主要分布式算法，参与设计实现过分布式存储系统，对关系数据库理论、NoSQL有一定了解和经验。
-对开源分布式存储系统有浓厚兴趣，了解redis、memcached、leveldb等的实现。
+对开源分布式存储系统有浓厚兴趣，了解redis、memcached、leveldb、zookeeper等的实现。
 熟悉推荐系统的基本算法和架构，实现过推荐系统上下游服务。
 熟悉精准广告系统的基本算法和架构，了解搜索引擎的原理，参与过全文索引和广告索引系统开发。
 熟练Python语言，使用Django等框架开发过web应用。用Python写过较多脚本，部分开源在Github上。
