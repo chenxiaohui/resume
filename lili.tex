@@ -1,0 +1,88 @@
+\include{config}
+\fancyfoot[L]{\footnotesize\textit{郑莉莉的个人简历}}
+\fancyfoot[C]{\footnotesize\thepage/\pageref{LastPage}}
+\fancyfoot[R]{\footnotesize\textit{上次更新:\today}}
+
+% personal data
+\name{郑莉莉}{}
+\title{女, 23}
+\address{籍贯：福建莆田}{}{}
+\phone[mobile]{+86~137~1797~9176}
+%\phone[fixed]{+86~027~6875~5072} % optional
+%\phone[fax]{+86~027~6875~4150} % optional
+\email{zlily1992@163.com}
+
+\begin{document}
+\makecvtitle
+
+\section{教育经历}
+\cvitem{2010.09--2014.06 }{ 北京邮电大学, 通信工程学院,  通信工程专业本科}
+\cvitem{2014.09--今 }{ 北京邮电大学  , 通信工程学院,   电子与通信工程研一}
+
+
+\section{实习经历}
+\cvitem{2013.11--2014.04}{           新浪无线测试部               ,  测试实习生}
+\cvitem{2015.04--今 }{            搜狐大数据中心推荐系统及精准广告团队     ,     软件开发实习生}
+
+
+\section{外语能力}
+\cvitem{\hello}{良好的英语读写能力，通过CET-6（547）。}
+
+
+\section{获奖情况}
+\cvitem{2010.09-2013.12 }{    多次获得北京邮电大学校二等奖学金}
+\cvitem{2012.12      }{     获得北京邮电大学校三好学生}
+\cvitem{2013.05      }{      获得北京邮电大学优秀团员}
+
+
+
+\section{专业素质}
+\cvitem{\hello}{熟悉Python语言，熟悉Java基础知识，具有一定的编程能力。}
+\cvitem{\hello}{熟悉基本的数据结构算法，对推荐系统基本流程有一定了解。}
+\cvitem{\hello}{有MySQL数据库基础，熟悉基本SQL语句。}
+\cvitem{\hello}{熟悉基本的Linux命令，了解TCP/IP协议。}
+\cvitem{\hello}{有CCNA证书。}
+
+
+
+\section{项目经验}
+\cvitem[.5em]{2015.07--2015.08}{
+    \textbf{ 中插广告打点后台系统实现 （python+django+celery）} \newline
+    \fixitemize{
+    \begin{itemize}
+        \item[]  响应视频端发来的HTTP请求，异步处理提交视频打点任务，程序运行结束返回打点结果。通过队列实现并提供重试机制。
+    \end{itemize}
+    }
+}
+\cvitem[.5em]{2015.05--2015.06}{
+    \textbf{ 搜狐广告数据统计及展示平台（hadoop+hive）} \newline
+    \fixitemize{
+    \begin{itemize}
+        \item[]  编写mapreduce程序，通过hadoop统计每一个广告位的广告收益并用Python处理最后结果数据。 将用户标签数据和新闻推送日志放入hive，统计两个联合的新闻数据。前端可查询和展示。（Java+Spring+myBatis）
+    \end{itemize}
+    }
+}
+\cvitem[.5em]{2015.04--2015.07 }{
+    \textbf{ 搜狐大数据中心监控平台 （python + django + mysql+bootstrap）} \newline
+    \fixitemize{
+    \begin{itemize}
+        \item[]  参与推荐系统的的开发，主要完成的是对于各个业务线推荐数据的监控，便于分析模型的效果以及及时发现异常。平台框架爱提供良好扩展性，能快速加入新的业务线监控。
+    \end{itemize}
+    }
+}
+\cvitem[.5em]{2013.11--2014.04 }{
+    \textbf{ 新浪无线测试部，自动化测试项目} \newline
+    \fixitemize{
+    \begin{itemize}
+        \item[]  参与接口的自动化测试，主要是用的Json语句编写测试过程和测试用例。 负责微博在H5和WAP2.0页面上的功能测试。
+    \end{itemize}
+    }
+}
+
+
+\section{在校实践经历}
+\cvitem[.5em]{2014.04--2014.06}{ 在SDN环境下，仿真一个web服务器集群，用POX（Python）实现服务器的负载均衡}
+\cvitem[.5em]{2012.11--2012.12 }{ 基于学校提供的华为路由器和交换机建立小型的企业网，组队完成项目，我在其中完成基本拓扑的搭建}
+
+
+\end{document}
