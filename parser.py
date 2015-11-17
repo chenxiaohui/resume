@@ -1,6 +1,7 @@
 #!/usr/bin/python
 #coding=utf-8
 #Filename:parser.py
+
 from config import *
 import re
 def parse_cv(filename):
@@ -29,12 +30,13 @@ def parse_cv(filename):
                 ret[key] = value
             else: #in a section
                 values = line.split(grammar['separator'])
-                if len(values) > 1:
-                    tmp = [values[0]]
-                    tmp.extend(re.split('。|\|', values[1], 1))
-                    curdict.append(tmp)
-                else:
-                    curdict.append(values)
+                curdict.append(values)
+                #if len(values) > 1:
+                    #tmp = [values[0]]
+                    #tmp.extend(re.split('。|\|', values[1], 0))
+                    #curdict.append(values)
+                #else:
+                    #curdict.append(values)
 
             line = fp.readline()
 
@@ -43,6 +45,8 @@ def parse_cv(filename):
 
     return ret
 
+
+
 if __name__ == '__main__':
     import pprint
-    pprint.pprint (parse_cv('test.cv'))
+    pprint.pprint(parse_cv('yangxing.cv'))

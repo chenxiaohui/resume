@@ -1,12 +1,13 @@
 cc=xelatex
 tmp=*.log *.out *.aux *.pyc
 
-all:resume-en.pdf resume-zh.pdf resume-zh-ad.pdf lili.pdf resume-en-other.pdf
+all:resume-en.pdf resume-zh.pdf resume-zh-ad.pdf yangxing.pdf lili.pdf resume-en-other.pdf
 again:
 	$(cc) resume-zh.tex
 	$(cc) resume-en.tex
 	$(cc) resume-zh-ad.tex
 	$(cc) lili.tex
+	$(cc) yangxing.tex
 	$(cc) resume-en-other.tex
 
 resume-zh.tex: resume-zh-template.tex zh.cv
@@ -30,10 +31,17 @@ resume-zh-ad.pdf: resume-zh-ad.tex config.tex
 	$(cc) $<
 	open $@
 
-lili.tex: resume-simple-template.tex lili.cv
+lili.tex: lili-template.tex lili.cv
 	./gen.py $^ $@
 
 lili.pdf: lili.tex config.tex
+	$(cc) $<
+	open $@
+
+yangxing.tex: yangxing-template.tex yangxing.cv
+	./gen.py $^ $@
+
+yangxing.pdf: yangxing.tex config.tex
 	$(cc) $<
 	open $@
 
