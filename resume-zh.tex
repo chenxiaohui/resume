@@ -5,8 +5,8 @@
 
 % personal data
 \name{陈晓辉}{}
-\title{男, 28}
-\address{北京市朝阳区望京恒电大厦B座 100102}{}{}
+\title{男, 29}
+\address{北京市海淀区中关村环保园 100095}{}{}
 \phone[mobile]{+86~138~1179~8428}
 %\phone[fixed]{+86~027~6875~5072} % optional
 %\phone[fax]{+86~027~6875~4150} % optional
@@ -27,9 +27,14 @@
 
 
 \section{工作经历}
-\cvitem{2015.10--今}{ 美团云计算对象存储组，高级研发工程师（分布式系统架构、开发），T2.3，绩效A}
+\cvitem{2016.11--今 }{ 华为2012分布式实验室，高级工程师A（分布式数据库），17级}
+\cvitem{2015.10--2016.11}{ 美团云计算对象存储组，高级研发工程师（分布式系统架构、开发），T2.3，绩效A}
 \cvitem{2014.11--2015.9}{ 搜狐大数据中心推荐系统和精准广告团队，高级研发工程师（后台系统架构、开发），L3.1，绩效AA}
 \cvitem{2013.7--2014.10 }{ 支付宝北京基础数据部OceanBase团队，研发工程师（分布式数据库开发），P5，绩效3.5}
+
+
+\section{获奖经历}
+\cvitem{2016 }{ 专利：张帅;陈晓辉;尹殷;李凯; 一种数据存储方法和装置、一种数据恢复方法和装置[CN106201764A]}
 
 
 \section{外语能力}
@@ -55,7 +60,15 @@
 
 
 \section{项目经验-工作}
-\cvitem[.5em]{2015.10-今 }{
+\cvitem[.5em]{2016.11-今  }{
+    \textbf{ 华为分布式数据库} \newline
+    \fixitemize{
+    \begin{itemize}
+        \item[]  在InnoDB上实现基于PaxosCommit分布式事务。参与华为的分布式数据库研发、测试，类AWS Aurora架构，开发测试中。
+    \end{itemize}
+    }
+}
+\cvitem[.5em]{2015.10-2016.11 }{
     \textbf{ 美团云自研对象存储系统S3Plus设计实现} \newline
     \fixitemize{
     \begin{itemize}
@@ -99,31 +112,7 @@
     \textbf{ 手机搜狐个性频道实时UA(User Attributes)系统} \newline
     \fixitemize{
     \begin{itemize}
-        \item[] 根据用户最近一段时间的浏览记录给用户打标签。参见\lnk{http://182.92.76.83/ua/}。Java实现，通过Zookeeper管理server列表并实现HA。
-    \end{itemize}
-    }
-}
-\cvitem[.5em]{2015.3-2015.4 }{
-    \textbf{ 搜狐微门户视频E\&E策略index-server开发} \newline
-    \fixitemize{
-    \begin{itemize}
-        \item[] 按照策略对刚进入系统的视频进行试探性曝光(Explore)，曝光到一定次数并获得相应点击的视频进入投放列表(Exploit)，参照Yahoo UCB相关论文。目前已经上线并在上海地区运行。Java实现。
-    \end{itemize}
-    }
-}
-\cvitem[.5em]{2015.3-2015.4 }{
-    \textbf{ 搜狗输入法个性化推送平台} \newline
-    \fixitemize{
-    \begin{itemize}
-        \item[] 通过聚类把用户分为多个类别，对不同类别用户编辑相关类别的热门新闻并推送。平台主要提供候选编辑，并对接搜狗的推送接口。人工介入以满足新闻质量要求。基于Django。
-    \end{itemize}
-    }
-}
-\cvitem[.5em]{2015.1-2015.3 }{
-    \textbf{ 推荐系统各业务线监控和人工标注系统} \newline
-    \fixitemize{
-    \begin{itemize}
-        \item[] 通过Thrift接口从各个业务线取数据，Join数据库对应新闻数据并展示以监控算法效果。提供为新闻手动打标签的界面为算法人工纠错。基于Django。
+        \item[] 根据用户最近一段时间的浏览记录给用户打标签。Java实现，通过Zookeeper管理server列表并实现HA。
     \end{itemize}
     }
 }
@@ -167,14 +156,6 @@
     \fixitemize{
     \begin{itemize}
         \item[] 外包项目。为金牌国际旅行社有限公司定制企业业务流程系统以及人事、财务管理软件。领导了整个项目开发并独立设计了系统架构，使用.Net平台，C/S架构，数据库使用SQLServer，基于异步非阻塞Socket，目前仍在使用中。
-    \end{itemize}
-    }
-}
-\cvitem[.5em]{2010.4-2010.6 }{
-    \textbf{ Admire系统MBus组件的改进和优化} \newline
-    \fixitemize{
-    \begin{itemize}
-        \item[] 本科毕设项目。主要对Admire系统（视频会议）MBus消息总线(跨进程、主机消息中间件)进行改进和优化，使之支持IPv6、变长消息格式，以及基于CryptoAPI实现SSL安全协议。VC实现。
     \end{itemize}
     }
 }
