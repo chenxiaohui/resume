@@ -1,7 +1,6 @@
 firstname=Xiaohui
 lastname=Chen
-title=Male, 28
-address=Huawei Inc. Zhongguancun Environmental Protection Park, Haidian District, Beijing, China
+address=Building 1, Dazhongsi Plaza, Beijing, China, 100080
 mobile=+86~138~1179~8428
 email=sdqxcxh@gmail.com
 
@@ -14,13 +13,16 @@ linkedin=chenxiaohui
 2006.9--2010.6 | Beihang University, Bachelor of Computer Science and Technology
 
 [work]
-2016.11--now| 2012 Lab of Huawei Inc. Senior Software Engineer， Major: Distributed Database System.
-2015.10--2016.11 | Meituan Corp(China Internet Plus Company). Senior Software Engineer, Major: Distributed File System.
-2014.12--2015.10 | Sohu Inc. Senior Software Engineer， Major: Recommendation and Advertising System.
-2013.7--2014.12 | Alibaba Inc. Software Engineer. Major:Distributed Database System.
+2017.12 - Present | ByteDance, Senior Engineer, Level 3.1, Performance Rating: M+
+2016.11 - 2017.12 | Huawei 2012 Distributed Lab, Senior Engineer A (Distributed Database), Level 17, Performance Rating: B
+2015.10 - 2016.11 | Meituan Cloud Computing Object Storage Group, Senior Engineer, Level T3.1, Performance Rating: A
+2014.11 - 2015.9 | Sohu Big Data Center, Recommendation System and Precision Advertising Team, Senior Development Engineer (Backend System Architecture and Development), Level L3.1, Performance Rating: AA
+2013.7 - 2014.10 | Alipay Beijing Basic Data Department, OceanBase Team, Development Engineer (Distributed Database Development), Level P5, Performance Rating: 3.5
 
 [awards]
 2016 | Patent: Zhangshuai;ChenXiaohui;Yinyin;Likai; Data storage method and apparatus, and data recovery method and apparatus [CN106201764A]
+2022 | Paper: ByteGraph: a high-performance distributed graph database in ByteDance (VLDB2022)
+2024 | Paper: Optimizing the Number of Clusters for Billion-Scalef Quantization-Based Nearest Neighbor Search (ICDE2024)
 
 [language]
 Fluent in English, skilled in documentation reading and writing.CET4(548),CET6(549), 
@@ -29,42 +31,16 @@ Fluent in English, skilled in documentation reading and writing.CET4(548),CET6(5
 I'm always  interested in doing research and expolore new ideas. I participated in some projects and got some experience in building high performace backend system. I like sharing, have a blog and also maintain my github. I'm also a kind person and get along with others well.
 
 [skills]
-Skilled in C/C++, familiar with Distributed Algorithms, have experience in Rational Databases System and NoSQL.
-Familiar with Open Source Distributed Storage System and the implementation of some storage system like redis, memcached and leveldb etc.
-Familiar with fundamental algorithm and infrastructure of Recommendation System, have experience in Search Engine, Index and Advertising System.
-Familiar with python and some python framework link Django etc. Some of code can be found in my github.
-Familiar with Java, completed some java system and service, using frameworks like Spring.
-Familiar with Linux, have experience in server and service management.
-Fluent in SVN,GIT and other version control tool, completed some plugin of vim,sublime which can be found in my Github.
+Experienced in C/C++ for many years, familiar with major distributed algorithms, and has participated in the design and implementation of distributed storage systems. Has a solid understanding of relational database theory and NoSQL.
+Knowledgeable in the basic algorithms and architecture of recommendation systems, and has implemented upstream and downstream services for recommendation systems.
+Familiar with the basic algorithms and architecture of precision advertising systems, understands the principles of search engines, and has contributed to the development of full-text indexing and ad indexing systems.
+Well-versed in common deep learning algorithms, with knowledge and experience in recommendation and search models, as well as training and inference engines. Built a graph training platform from the ground up, supporting all GNN and GE scenario training within the company.
 
 [projects]
-2016.11-now |Distributed Database of Huawei Corp| Participated in the implementation of Huawei's Distributed Datbase. It's like Amazon Aurora and I add distributed transaction to the database using Paxos Commit.
-
-2015.11-2016.11| Distributed Object-based Storage System of Meituan Corp| I's one of the core developer of the system, which is like Amazon S3 and fully compatable with AWS S3.
-
-2014.2-2014.11 | Distributed Rational Datbase Oceanbase1.0 (Alibaba Corp) | Participated in the design of Oceanbase System and implementation of 2Phase commit, Log Sync(based on Paxos). Also familiar with other module and the implementation of whole system.
-
-2013.7-2014.2 | Distributed Rational Datbase Oceanbase 0.5 (Alibaba Corp) |In charge of Schema Management, RootServer Refactor, Innertable Implementaion. Oceanbase is now the core Database System of Alibaba Corporation.
-
-2015.6-2015.10 | Index System of Sohu.com Inc| I improved and maintained the Advertising Index System of Sohu Inc. It's like Lucence but supports searching of advertisement which satisfied some boolean conditions. Using C++.
-
-2015.4-2015.6 | Implement of Configuration Center using Zookeeper |Use Zookeeper to manage configuration，supports online change and notification. I's now used in several system of Sohu.com Inc and can be found in \lnk{http://cxh.me/2015/06/16/sohu-zk-client-document/}. Using Java.
-
-2015.3-2015.4 | Sohu Advertising E\&E Strategy |Using Strategy to show new incoming short video，and give the videos with higher CTR more Exposure(Exploit)，the algorithm can be found in Yahoo UCB paper. using Java.
-
-2014.11-2015.1 | Sohu News UA(User Attributes) System | A system to tag user using his behavior.ref:\lnk{http://182.92.76.83/ua/}.using Java.
-
-[school]
-2013.3-2013.6 | Building Information Modeling（IFC）Compiler and Data Service |It can map IFC Schema  to Python Language，and supports search of Pesudo Result of the parsing. using Python + MongoDB.see \lnk{https://github.com/chenxiaohui/BimCenter}.
-
-2011.3-2011.6 | Fits me Tourism Website \lnk{http://home.donews.com/donews/article/1/153561.html} |veture project. I'm in charge of the design and implementation of the website, which contains groupby, crawler, and a small search engine.base on LAMP.see \lnk{https://github.com/chenxiaohui/groupbuy} for codes.
-
-2009.11-2010.5 | SNS game(TreasureStory)\lnk{https://apps.facebook.com/treasurestory_tc/} | venture project. In charge of development of its management system. The game landed on facebook at may 2010，Rank30 in Zynga，based on LAMP.
-
-[others]
-
-vim,sublime plugin | vim-config(vim configuration，\lnk{https://github.com/chenxiaohui/vim_config}),vim-cscope(mapping cscope，\lnk{https://github.com/chenxiaohui/vim_cscope}),ifdef-generator(generate ifdef，\lnk{https://github.com/chenxiaohui/ifdef_generator}),postreview.vim(generate post-review script，\lnk{https://github.com/chenxiaohui/post-review.vim}),file-list(file browser，\lnk{https://github.com/chenxiaohui/file-list}),AllinOneCompile(compile management plugin，\lnk{https://github.com/chenxiaohui/AllinOneCompile}),BufItv2(buffer management plugin，\lnk{https://github.com/chenxiaohui/Buf_Itv2}),generate-ref(sublime plugin to generate ref\lnk{https://github.com/chenxiaohui/generate_ref}) etc.
-
-python script | Resume Generator（using tex to generate tex for resume, and this resume is also written using it)\lnk{https://github.com/chenxiaohui/resume}),category(category books，\lnk{https://github.com/chenxiaohui/category}),music-category（category music，\lnk{https://github.com/chenxiaohui/MusicCategory}），proxy-pool(a crawler for free proxy，\lnk{https://github.com/chenxiaohui/proxy_pool})，scrawl(a crawler using pattern) etc.
-
-Other Projects| C0 Compiler(C，\lnk{https://github.com/chenxiaohui/C0Compiler}）,Regex Matcher（C++，\lnk{http://cxh.me/2011/03/22/implement-of-regular-expression-matcher/}）,etc.
+2022.10 - Present | ByteDance - Infrastructure | Responsible for building the graph training engine and platform in the ByteGraph team, including business integration, platform architecture design, and maintenance. Built the graph training platform and framework from the ground up, deeply involved in training task integration and algorithm optimization, supporting all graph training scenarios within the company.
+2019.9 - 2022.9 | ByteDance - Search | Responsible for ByteDance’s general search data flow and the recall architecture for TikTok search, supporting model training, offline data statistics, sample backtracking, as well as database creation and recall architecture for TikTok search.
+2017.12 - 2019.9 | ByteDance - Infrastructure | Led ByteDance’s DRC data synchronization service, supporting M (Musical.ly) and T (TikTok) integration and multi-data center, cross-DC data synchronization.
+2016.11 - 2017.11 | Huawei Distributed Database | Implemented distributed transactions based on PaxosCommit on InnoDB. Participated in implementation of Huawei’s distributed database , working with an architecture similar to AWS Aurora.
+2015.10 - 2016.11 | Meituan Cloud Self-Developed Object Storage System (S3Plus)| Core designer and developer, responsible for the design and implementation of the RPC framework, participated in the full implementation of the StoreServer and some modules of the ProxyServer. Familiar with the entire system’s design principles, implemented in C and Go.
+2014.2 - 2014.11 | Alibaba Distributed Database Oceanbase 1.0 Version | Participated in the design and implementation of the transaction module for the 1.0 cloud version, including distributed transaction design (two-phase commit) and log synchronization (based on Paxos). Designed the test framework for the leader election algorithm. Implemented in C++.
+2015.6 - 2015.9 | Sohu Precision Advertising Index System | Maintained and refactored the indexing system for precision advertising, implemented similarly to Lucene, providing search for ad candidate sets that meet specific targeting conditions and persisting the index to disk. Implemented in C++ in a distributed environment.
